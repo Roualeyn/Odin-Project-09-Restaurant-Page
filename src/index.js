@@ -1,4 +1,6 @@
 import about from "./about.js";
+import contact from "./contact.js";
+import menu from "./menu.js";
 
 ///////////////// Create Header Bar /////////////////
 const header = document.createElement("header");
@@ -26,3 +28,20 @@ document.querySelector("body").appendChild(contentDiv);
 /////////////////////////////////////////////////////
 
 about(contentDiv);
+
+
+
+aboutButton.addEventListener("click", () => {
+    contentDiv.innerHTML = "";
+    about(contentDiv);
+});
+
+contactButton.addEventListener("click", () => {
+    contentDiv.innerHTML = "";
+    contact(contentDiv);
+});
+
+menuButton.addEventListener("click", () => {
+    contentDiv.innerHTML = "";
+    menu(contentDiv);
+});
