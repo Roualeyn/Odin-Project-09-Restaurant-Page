@@ -1,3 +1,5 @@
+import about from "./about.js";
+
 ///////////////// Create Header Bar /////////////////
 const header = document.createElement("header");
 const headerTitle = document.createElement("h1");
@@ -22,3 +24,5 @@ contentDiv.id = "content";
 document.querySelector("body").appendChild(contentDiv);
 
 /////////////////////////////////////////////////////
+
+about(contentDiv);
