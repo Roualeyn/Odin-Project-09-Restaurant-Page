@@ -1,3 +1,5 @@
+import Image from './aboutImg.jpg';
+
 export default function about(container) {
     let textBox = document.createElement("div");
     textBox.classList.add("about");
@@ -21,6 +23,6 @@ export default function about(container) {
     container.appendChild(textBox);
         
     let image = document.createElement("img");
-    image.src = "./aboutImg.jpg";
+    image.src = Image;
     textBox.appendChild(image);
 }

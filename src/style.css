@@ -71,5 +71,7 @@ nav button:hover {
 }
 
 .about img {
-    width: 426px;
+    height: 15rem;
+    border-radius: 55px;
+    border: 5px ridge #f97316;
 }
