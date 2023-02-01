@@ -5,7 +5,7 @@ import menu from "./menu.js";
 ///////////////// Create Header Bar /////////////////
 const header = document.createElement("header");
 const headerTitle = document.createElement("h1");
-headerTitle.textContent = "Restaurant Name";
+headerTitle.textContent = "Sunrise Cafe";
 header.appendChild(headerTitle);
 
 const navBar = document.createElement("nav");
