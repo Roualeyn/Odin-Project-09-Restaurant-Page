@@ -1,5 +1,6 @@
 export default function about(container) {
     let textBox = document.createElement("div");
+    textBox.classList.add("about");
     let aboutHeader = document.createElement("h2");
     aboutHeader.textContent = "About Us";
     let aboutText = document.createElement("p");
@@ -20,7 +21,6 @@ export default function about(container) {
     container.appendChild(textBox);
         
     let image = document.createElement("img");
-    image.classList.add("aboutImage");
     image.src = "./aboutImg.jpg";
-    container.appendChild(image);
+    textBox.appendChild(image);
 }

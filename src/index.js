@@ -1,6 +1,7 @@
 import about from "./about.js";
 import contact from "./contact.js";
 import menu from "./menu.js";
+import './style.css';
 
 ///////////////// Create Header Bar /////////////////
 const header = document.createElement("header");
